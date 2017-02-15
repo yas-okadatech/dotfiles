@@ -13,6 +13,7 @@ alias la='ls -a'
 # PATH
 
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$PATH:~/git/dotfiles_private/bin:~/git/dotfiles/bin
 export PATH=$PATH:/usr/libexec
 
 # JAVA
