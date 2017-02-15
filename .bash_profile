@@ -1,5 +1,16 @@
+
+# bashrc
+
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+# alias
+
 alias ll='ls -la'
 alias la='ls -a'
+
+# PATH
 
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:/usr/libexec
