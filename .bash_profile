@@ -22,3 +22,7 @@ export JAVA_HOME=`java_home`
 # android SDK
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+
