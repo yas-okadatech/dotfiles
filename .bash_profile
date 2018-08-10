@@ -17,7 +17,7 @@ export PATH=$PATH:~/git/dotfiles_private/bin:~/git/dotfiles/bin
 export PATH=$PATH:/usr/libexec
 
 # JAVA
-export JAVA_HOME=`java_home`
+# export JAVA_HOME=`java_home`
 
 # android SDK
 export ANDROID_HOME=~/Library/Android/sdk
