@@ -15,6 +15,7 @@ alias la='ls -a'
 export PATH=~/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=$PATH:~/git/dotfiles_private/bin:~/git/dotfiles/bin
 export PATH=$PATH:/usr/libexec
+export PATH=$PATH:~/Library/Python/2.7/bin/
 
 # JAVA
 # export JAVA_HOME=`java_home`
@@ -30,4 +31,10 @@ eval "$(rbenv init -)"
 # anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
+
+# mysql 5.7
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
 
