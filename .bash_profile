@@ -46,3 +46,8 @@ fi
 # erlenv
 export PATH="$HOME/.erlenv/bin:$PATH"
 eval "$(erlenv init -)"
+
+# exenv 
+export PATH="$HOME/.exenv/bin:$PATH"
+eval "$(exenv init -)"
+
