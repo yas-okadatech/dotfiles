@@ -44,4 +44,4 @@ fi
 
 # erlenv
 export PATH="$HOME/.erlenv/bin:$PATH"
-evel "$(erlenv init -)"
+eval "$(erlenv init -)"
