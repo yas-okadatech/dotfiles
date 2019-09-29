@@ -27,8 +27,9 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
+if [ -e $HOME/.rbenv ]; then
+  eval "$(rbenv init -)"
+fi
 
 # mysql 5.7
 # export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
