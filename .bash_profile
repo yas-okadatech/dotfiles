@@ -51,3 +51,5 @@ eval "$(erlenv init -)"
 export PATH="$HOME/.exenv/bin:$PATH"
 eval "$(exenv init -)"
 
+# nodenv
+eval "$(nodenv init -)"
