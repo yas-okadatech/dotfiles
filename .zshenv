@@ -46,9 +46,6 @@ eval "$(erlenv init -)"
 export PATH="$HOME/.exenv/bin:$PATH"
 eval "$(exenv init -)"
 
-# nodenv
-eval "$(nodenv init -)"
-
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
