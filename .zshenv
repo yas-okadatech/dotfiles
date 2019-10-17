@@ -1,4 +1,4 @@
-PROMPT='%m:%~ %n%% '
+PROMPT='%m:%1~ %n%% '
 # alias
 
 alias ll='ls -la'
