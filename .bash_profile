@@ -46,14 +46,20 @@ fi
 
 # erlenv
 export PATH="$HOME/.erlenv/bin:$PATH"
-eval "$(erlenv init -)"
+if command -v erlenv 1>/dev/null 2>&1; then
+  eval "$(erlenv init -)"
+fi
 
 # exenv 
 export PATH="$HOME/.exenv/bin:$PATH"
-eval "$(exenv init -)"
+if command -v exenv 1>/dev/null 2>&1; then
+  eval "$(exenv init -)"
+fi
 
 # nodenv (brew install nodenv)
-eval "$(nodenv init -)"
+if command -v nodenv 1>/dev/null 2>&1; then
+  eval "$(nodenv init -)"
+fi
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -65,5 +71,11 @@ fi
 # direnv (brew install direnv)
 if command -v direnv 1>/dev/null 2>&1; then
   eval "$(direnv hook bash)"
+fi
+
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+if command -v anyenv 1>/dev/null 2>&1; then
+  eval "$(anyenv init -)"
 fi
 
