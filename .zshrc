@@ -10,5 +10,5 @@ eval "$(nodenv init -)"
 
 
 # asdf
-. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+. /usr/local/opt/asdf/asdf.sh
 
