@@ -8,3 +8,7 @@ fi
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
 
+
+# asdf
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+
