@@ -10,5 +10,5 @@ eval "$(nodenv init -)"
 
 
 # asdf
-. /usr/local/opt/asdf/asdf.sh
-
+. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
