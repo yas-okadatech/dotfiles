@@ -1,3 +1,5 @@
+autoload -Uz compinit && compinit
+
 # homebrew
 
 if type brew &>/dev/null; then
