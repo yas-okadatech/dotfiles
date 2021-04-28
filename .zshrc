@@ -19,3 +19,9 @@ if [ -f "${HOME}/google-cloud-sdk/completion.zsh.inc" ]; then . "${HOME}/google-
 export PATH="$HOME/.rbenv/bin:$PATH" 
 eval "$(rbenv init - zsh)"
 
+# gcloud
+# brew install google-cloud-sdk
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
+
+
