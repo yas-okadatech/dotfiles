@@ -24,4 +24,8 @@ cd dotfiles
 
 - https://brew.sh/index_ja
 
+# Visual Studeio Code
+
+- https://code.visualstudio.com/download
+
 
