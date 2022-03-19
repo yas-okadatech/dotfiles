@@ -28,4 +28,7 @@ cd dotfiles
 
 - https://code.visualstudio.com/download
 
+# Docker
+
+- https://www.docker.com/get-started/
 
