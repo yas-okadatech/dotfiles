@@ -32,3 +32,16 @@ cd dotfiles
 
 - https://www.docker.com/get-started/
 
+# rbenv
+
+```
+brew install rbenv
+```
+
+# PostgreSQL 11
+
+```
+brew install postgresql@11
+```
+
+
