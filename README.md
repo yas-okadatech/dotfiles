@@ -32,6 +32,12 @@ cd dotfiles
 
 - https://www.docker.com/get-started/
 
+# asdf
+
+```
+brew install asdf
+```
+
 # rbenv
 
 ```
