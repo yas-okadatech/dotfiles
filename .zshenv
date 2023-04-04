@@ -11,6 +11,7 @@ export PATH=$PATH:~/git/dotfiles_private/bin:~/git/dotfiles/bin
 export PATH=$PATH:/usr/libexec
 export PATH=$PATH:~/Library/Python/2.7/bin/
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH=$PATH:$HOME/bin
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
