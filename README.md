@@ -16,6 +16,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ### 設定
 
 - [GitHubの scheduled reminders で PRのレビュワー指定・再レビュー依頼などをSlack通知する](https://zenn.dev/hiroga/articles/github-scheduled-reminder)
+- `/github subscribe primenumber-dev reviews,comments`
 
 ## dotfiles
 
