@@ -1,5 +1,8 @@
 autoload -Uz compinit && compinit
 
+# PATH
+export PATH=/usr/local/opt/openssl@3/bin:$PATH
+
 # homebrew
 
 if type brew &>/dev/null; then
