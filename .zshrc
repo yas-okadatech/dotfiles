@@ -27,3 +27,6 @@ source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
 # direnv
 eval "$(direnv hook zsh)"
 
+# jenv
+eval "$(jenv init -)"
+
