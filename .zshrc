@@ -33,3 +33,6 @@ eval "$(direnv hook zsh)"
 # jenv
 eval "$(jenv init -)"
 
+# postgresql@15
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
+
