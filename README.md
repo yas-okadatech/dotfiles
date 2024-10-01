@@ -13,6 +13,11 @@ xcode-select --install
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+### .gitconfig
+
+signを追加
+https://gist.github.com/yas-okadatech/1a7704645bf9a54a260506a13f493be3
+
 ### 設定
 
 - [GitHubの scheduled reminders で PRのレビュワー指定・再レビュー依頼などをSlack通知する](https://zenn.dev/hiroga/articles/github-scheduled-reminder)
